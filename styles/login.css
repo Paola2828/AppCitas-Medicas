@@ -67,3 +67,11 @@ transition: 0.25s;
 .form-box button[type="submit"]:hover {
     background: none;
 }
+
+.warning {
+    width: 200px;
+    text-align: center;
+    margin: auto;
+    color: #B06AB3;
+    padding-top: 20px;
+}

@@ -13,12 +13,17 @@
 </head>
 <body>
 
-    <form action="./pagina.html" class="form-box animate__animated animate__bounce">
+    <form class="form-box animate__animated animate__bounce" id="form">
         <h1 class="fotm-title">SingIn</h1>
-        <input type="text" placeholder="Username">
-        <input type="password" placeholder="Password">
-        <button type="submit">Login</button>
+        <input type="text" placeholder="Username" id="usuario">
+        
+        <input type="password" placeholder="Password" id="password">
+        
+        <button type="submit" id="boton">Login</button>
+        <p class="warning" id="warning"></p>
     </form>
+
+    <script src="./scripts/login.js"></script>
     
 </body>
 </html>
